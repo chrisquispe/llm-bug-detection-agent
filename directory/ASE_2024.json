@@ -1,0 +1,242 @@
+[
+  {
+    "file_name": "FAIL_ Analyzing Software Failures from the News Using LLMs.pdf",
+    "bug_type": "The bug types discussed in the paper are real-world software failures as reported in news articles. The paper focuses on analyzing actual incidents that have occurred in various software systems.",
+    "bug_origin": "Real-world",
+    "programming_language": "The paper does not specify a particular programming language used for the software failures analyzed. Instead, it discusses software failures in general across various systems without focusing on a specific programming language.",
+    "benchmarks_or_datasets": "The paper mentions a database of postmortems describing software failures collected from news articles, covering incidents from 2010 to 2022. It does not specify traditional benchmarks but indicates that the dataset is derived from news articles and includes a systematic study of 2,457 incidents.",
+    "dataset_tool_repo": "Yes, the paper states that they publish a database of postmortems describing software failures. However, the specific link to the dataset or tool repository is not provided in the text you shared.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": "Yes, the paper describes the use of various LLM prompt strategies, including:"
+  },
+  {
+    "file_name": "Leveraging Large Language Model to Assist Detecting Rust Code Comment Inconsistency.pdf",
+    "bug_type": "The bug type discussed in the paper is related to inconsistencies between code and comments in Rust programs. These inconsistencies can lead to misunderstandings and errors in code usage. The paper focuses on real-world inconsistencies found in actual Rust projects.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is Rust.",
+    "benchmarks_or_datasets": "The paper does not mention a standard benchmark dataset for code-comment inconsistency detection. Instead, it describes that the authors crawled large-scale Rust projects from GitHub to build a dataset for testing and validation. They selected 12 well-known official Rust libraries for their experiments.",
+    "dataset_tool_repo": "Yes, a tool repository is provided. The implementation of the tool can be found at the following link: [RustC4 GitHub Repository](https://github.com/YichiZhang0613/RustC4).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "VulZoo_ A Comprehensive Vulnerability Intelligence Dataset.pdf",
+    "bug_type": "The bug type refers to software vulnerabilities (SVs), and they are real-world vulnerabilities, not synthetic.",
+    "bug_origin": "Real-world",
+    "programming_language": "The context does not specify a single programming language used; however, it mentions that some Proof of Concepts (PoCs) are written in Ruby, Python, and Perl.",
+    "benchmarks_or_datasets": "The benchmarks or datasets used include:",
+    "dataset_tool_repo": "The context does not provide a specific link to a dataset/tool repository.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": "The context does not mention any specific LLM prompt strategy used in the paper."
+  },
+  {
+    "file_name": "Effective Vulnerable Function Identification based on CVE Description Empowered by Large Language Models.pdf",
+    "bug_type": "The bug types discussed in the paper are real-world vulnerabilities associated with Common Vulnerabilities and Exposures (CVEs).",
+    "bug_origin": "Real-world",
+    "programming_language": "The paper mentions that the approach is language-agnostic and can accommodate vulnerable function queries in various programming languages. However, it specifically references the Java programming language in the context of the datasets used.",
+    "benchmarks_or_datasets": "The paper utilizes the following datasets:",
+    "dataset_tool_repo": "The paper does not explicitly provide a link to a dataset or tool repository.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": "Yes, the paper describes a prompt strategy that includes:"
+  },
+  {
+    "file_name": "Towards Effective Static Type-Error Detection for Python.pdf",
+    "bug_type": "The bug type is type errors, and they are real-world bugs. The paper mentions that the dataset includes 68 developer-confirmed type errors gathered from 20 open-source Python projects.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is Python.",
+    "benchmarks_or_datasets": "The benchmarks consist of 68 developer-confirmed type errors gathered from 20 open-source Python programs.",
+    "dataset_tool_repo": "The paper does not provide a specific link to a dataset or tool repository in the provided context.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": "The paper does not mention the use of any LLM (Large Language Model) prompt strategy in the context provided."
+  },
+  {
+    "file_name": "VulAdvisor_ Natural Language Suggestion Generation for Software Vulnerability Repair.pdf",
+    "bug_type": "The bug type discussed in the paper pertains to software vulnerabilities. The vulnerabilities are real-world, as they are extracted from historical patches related to actual vulnerabilities recorded in the CVE/NVD databases.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming languages used in the study are C and C++.",
+    "benchmarks_or_datasets": "The paper describes a dataset consisting of over 18,517 pairs of vulnerable functions and their corresponding suggestions, curated from real-world C/C++ projects and historical patches from CVE/NVD.",
+    "dataset_tool_repo": "Yes, the source code and experimental data are publicly available at the following link: [https://github.com/zhangj111/VulAdvisor](https://github.com/zhangj111/VulAdvisor).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "FastFixer_ An Efficient and Effective Approach for Repairing Programming Assignments.pdf",
+    "bug_type": "The bug types include semantic errors, compile errors, timeout errors, and presentation errors. The bugs are derived from real-world student submissions, specifically from programming assignments, making them real-world bugs.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is C.",
+    "benchmarks_or_datasets": "The primary dataset used is Defects4DS, which contains submissions from a Data Structure course. Additionally, a larger dataset named Defects4DS-L is constructed for evaluation, encompassing submissions from 18 programming assignments.",
+    "dataset_tool_repo": "Yes, the dataset and code scripts are available at the following link: [https://github.com/LiuFang816/FastFixer](https://github.com/LiuFang816/FastFixer).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "The University of Manchester ResearchLLM-Generated Invariants for Bounded Model Checking.pdf",
+    "bug_type": "The paper does not explicitly categorize the bugs as synthetic or real-world. However, it discusses the challenges of verifying programs with loops that cannot be statically bounded, indicating that the bugs addressed may be more aligned with real-world scenarios encountered in software verification.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used in the paper is C.",
+    "benchmarks_or_datasets": "The benchmarks used are from the code2inv benchmark set, which is developed for learning-based approaches to invariant generation.",
+    "dataset_tool_repo": "Yes, a repository is provided. The link to the repository is: [https://github.com/esbmc/esbmc/tree/ahmed-vampire-forloops](https://github.com/esbmc/esbmc/tree/ahmed-vampire-forloops).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Test-Driven Development and LLM-based Code Generation.pdf",
+    "bug_type": "The bugs discussed in the paper are primarily related to the logical flaws in code generated by LLMs, which can be considered real-world bugs as they pertain to the correctness and functionality of code in practical applications.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used in the experiments is Python, as indicated by the mention of PyTest, a Python unit-testing framework.",
+    "benchmarks_or_datasets": "The benchmarks or datasets used include:",
+    "dataset_tool_repo": "Yes, a replication package is provided, which includes output and runtime details from TGen for all cases experimented with, along with code scripts. However, the specific link to the repository is not provided in the text.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": "The paper mentions a structured prompt strategy where the LLM is provided with a problem statement and corresponding tests. The prompts are designed to guide the LLM in generating code that adheres to the specifications outlined in the tests. The specific structure of the prompts is referenced but not detailed in the provided text."
+  },
+  {
+    "file_name": "LLM-Based Java Concurrent Program to ArkTS Converter.pdf",
+    "bug_type": "The bugs encountered during the conversion process are primarily related to the misuse of the ThreadBridge library by the LLM, which can be considered real-world bugs as they arise from practical implementation issues in translating Java concurrency constructs to ArkTS.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming languages used are Java (for the source code) and ArkTS (for the target code).",
+    "benchmarks_or_datasets": "The paper mentions the use of 53 Java concurrency code samples based on classical synchronization patterns like producer-consumer and reader-writer, ranging from easy to hard levels.",
+    "dataset_tool_repo": "Yes, a dataset/tool repository is provided. The link is: [https://github.com/Java2ArkTS/Java2ArkTS](https://github.com/Java2ArkTS/Java2ArkTS).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "DataRecipe \u2014 How to Cook the Data for CodeLLM_.pdf",
+    "bug_type": "The paper does not explicitly mention a specific bug type. However, it discusses the presence of bugs, code smells, and software complexity, indicating that the focus is on real-world issues in code quality rather than synthetic bugs.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used in the study is Python.",
+    "benchmarks_or_datasets": "The benchmarks or datasets used include:",
+    "dataset_tool_repo": "Yes, the paper mentions that the code and data are publicly available, but it does not provide a specific link in the provided context. You would need to refer to the original paper for the exact link.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": "Yes, the paper mentions using prompts for correcting semantic correlations between intent-code pairs, specifically using a prompt for GPT-3.5-turbo: \"Please correct the semantic correlations between the following pair <NL intent> ... <Code> ...\"."
+  },
+  {
+    "file_name": "HITS_ High-coverage LLM-based Unit Test Generation via Method.pdf",
+    "bug_type": "The paper does not explicitly mention specific bug types, but it focuses on generating unit tests for complex methods in Java. The methods evaluated are likely to contain real-world bugs as they are derived from open-source projects. Therefore, the bugs can be considered real-world.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is Java.",
+    "benchmarks_or_datasets": "The benchmarks or datasets used include ten open-source projects collected from the Internet, specifically focusing on complex methods within those projects. The projects are selected based on their relevance to previous works like Evosuite and ChatUniTest.",
+    "dataset_tool_repo": "Yes, a dataset/tool repository is provided. The link is: [https://anonymous.4open.science/r/SlicePromptTest4J-6CF1/](https://anonymous.4open.science/r/SlicePromptTest4J-6CF1/)",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "STASE_ Static Analysis Guided Symbolic Execution for UEFI Vulnerability Signature Generation.pdf",
+    "bug_type": "The bug types discussed in the paper include vulnerabilities such as buffer overflows, integer underflows, and specific UEFI vulnerabilities like SMRAM Write. The paper mentions both synthetic vulnerabilities (injected for testing) and real-world vulnerabilities (e.g., PixieFail).",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is C, specifically for UEFI source code.",
+    "benchmarks_or_datasets": "The benchmarks/datasets used include:",
+    "dataset_tool_repo": "Yes, the tool implementation is publicly available on GitHub. However, the specific link is not provided in the context.",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "ContractTinker_ LLM-Empowered Vulnerability Repair for Real-World Smart Contracts.pdf",
+    "bug_type": "The bug type is real-world vulnerabilities, specifically high-level functional bugs related to the business logic of smart contracts.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is Solidity, which is commonly used for writing smart contracts.",
+    "benchmarks_or_datasets": "The paper mentions the use of a dataset containing 48 high-risk findings that include both vulnerabilities and their fix recommendations, collected from the Code4Rena platform.",
+    "dataset_tool_repo": "Yes, a dataset/tool repository is provided. The link is: [https://github.com/CheWang09/LLM4SMAPR](https://github.com/CheWang09/LLM4SMAPR).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "RMCBench_ Benchmarking Large Language Models' Resistance to Malicious Code.pdf",
+    "bug_type": "The bug types are various forms of malicious code, including Viruses, Worms, Trojan horses, Spyware, Adware, Ransomware, Rootkits, Phishing, Vulnerability Exploitation, Network attacks, and Others. These are real-world types of malicious code.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming languages used include Python, Java, C++, C, C#, Go, HTML (JavaScript), PHP, and Bash.",
+    "benchmarks_or_datasets": "The benchmark used is RMCBench, which comprises 473 prompts designed to assess the ability of LLMs to resist malicious code generation. The dataset includes 392 repositories related to malicious code and malware retrieved from GitHub.",
+    "dataset_tool_repo": "Yes, a dataset/tool repository is provided. The link is: [https://github.com/qing-yuan233/RMCBench](https://github.com/qing-yuan233/RMCBench).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "GlitchProber_ Advancing Effective Detection and Mitigation of Glitch Tokens in Large Language Models.pdf",
+    "bug_type": "The bug type discussed in the paper is \"glitch tokens.\" These tokens are considered real-world bugs as they exist in the vocabulary of large language models (LLMs) and can lead to model errors in practical applications.",
+    "bug_origin": "Real-world",
+    "programming_language": "The paper does not explicitly mention a programming language used for implementation. However, it discusses methods and algorithms that are typically implemented in languages like Python, especially in the context of machine learning and NLP.",
+    "benchmarks_or_datasets": "The paper mentions the use of the Llama-2-7b-chat model for experiments, and it also references datasets like GSM8K, HumanEval, and MMLU for evaluating the model's basic skills post-GlitchProber application. Additionally, a dataset with Q&A for the repetition task is constructed.",
+    "dataset_tool_repo": "Yes, the paper mentions that the work is published on their website, but it does not provide a specific link in the text provided. You would need to refer to the original paper for the exact URL.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Oracle-Guided Vulnerability Diversity and Exploit Synthesis of Smart Contracts Using LLMs.pdf",
+    "bug_type": "",
+    "bug_origin": "Unknown",
+    "programming_language": "",
+    "benchmarks_or_datasets": "",
+    "dataset_tool_repo": "",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "iSMELL_ Assembling LLMs with Expert Toolsets for Code Smell.pdf",
+    "bug_type": "The bug types discussed in the paper are code smells, specifically three types: Refused Bequest, God Class, and Feature Envy. These code smells are typically found in real-world software projects.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used in the study is Java.",
+    "benchmarks_or_datasets": "The paper mentions that the dataset originates from a diverse array of GitHub open-source projects, although specific names of benchmarks or datasets are not provided in the excerpt.",
+    "dataset_tool_repo": "Yes, the paper states that publicly accessible datasets and source code are provided. However, the specific link to the repository is not included in the excerpt.",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Imperceptible Content Poisoning in LLM-Powered Applications.pdf",
+    "bug_type": "The bug type is \"content poisoning,\" which is a real-world bug.",
+    "bug_origin": "Real-world",
+    "programming_language": "The paper does not explicitly mention a programming language, but it discusses the implementation of attacks and tools in the context of LLM application frameworks like LangChain, which is typically associated with Python.",
+    "benchmarks_or_datasets": "The paper uses a dataset of 50 pieces of content collected from the Internet, which includes 25 pieces for word-level attacks (related to software and medicine usage guidance) and 25 pieces for whole-content attacks (product and book reviews).",
+    "dataset_tool_repo": "Yes, a tool repository is provided. The link is: [https://github.com/ZQ-Struggle/Content-Poisoning](https://github.com/ZQ-Struggle/Content-Poisoning).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "JavaBench_ A Benchmark of Object-Oriented Code Generation for Evaluating Large Language Models.pdf",
+    "bug_type": "The bugs evaluated in the benchmark are related to object-oriented programming features and are primarily real-world bugs, as they are derived from programming assignments given to undergraduate students.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used in the benchmark is Java.",
+    "benchmarks_or_datasets": "The benchmark introduced in the paper is called JavaBench, which comprises four Java projects designed as programming assignments for an entry-level Java course. These projects contain 389 methods in 106 Java classes and are covered by 396 tests.",
+    "dataset_tool_repo": "Yes, a dataset/tool repository is provided. The implementation and all associated publicly available data can be found at [https://github.com/java-bench/JavaBench](https://github.com/java-bench/JavaBench).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "COBRA_ Interaction-Aware Bytecode-Level Vulnerability Detector for Smart Contracts.pdf",
+    "bug_type": "Dataset I: Contains 13,948 deployed bytecode smart contracts from the XBlock_Eth dataset, with 8,267 labeled contracts for vulnerability detection.",
+    "bug_origin": "Unknown",
+    "programming_language": "Dataset I: Contains 13,948 deployed bytecode smart contracts from the XBlock_Eth dataset, with 8,267 labeled contracts for vulnerability detection.",
+    "benchmarks_or_datasets": "Dataset I: Contains 13,948 deployed bytecode smart contracts from the XBlock_Eth dataset, with 8,267 labeled contracts for vulnerability detection.",
+    "dataset_tool_repo": "",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Magneto_ A Step-Wise Approach to Exploit Vulnerabilities in.pdf",
+    "bug_type": "The bug types discussed in the paper are real-world vulnerabilities present in third-party libraries. The paper specifically mentions vulnerabilities such as CVE-2021-44228 (Log4Shell) and CVE-2019-10086.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used in the context of the paper is Java.",
+    "benchmarks_or_datasets": "The paper mentions the collection of 32 vulnerabilities affecting 21 third-party libraries and 45 vulnerable functions, along with 49 GitHub projects that can exploit these vulnerabilities. It also references a vulnerability database that includes vulnerabilities from the NVD (National Vulnerability Database) and other sources.",
+    "dataset_tool_repo": "The context does not provide a specific link to a dataset or tool repository. It mentions a vulnerability database but does not give a URL.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "LLM Meets Bounded Model Checking_ Neuro-symbolic Loop.pdf",
+    "bug_type": "The bug type pertains to loop invariant inference problems, which are primarily synthetic as they are derived from benchmark problems and competitions (e.g., SyGuS competition, SV-COMP benchmarks).",
+    "bug_origin": "Synthetic",
+    "programming_language": "The programming language used is C.",
+    "benchmarks_or_datasets": "The benchmarks consist of 316 loop invariant inference problems, including:",
+    "dataset_tool_repo": "Yes, the dataset/tool repository is provided. However, the specific link is not mentioned in the provided text.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": "Yes, two types of prompts are used:"
+  },
+  {
+    "file_name": "AdvSCanner_ Generating Adversarial Smart Contracts to Exploit.pdf",
+    "bug_type": "The bug type discussed in the paper is **reentrancy vulnerabilities**. These vulnerabilities are considered **real-world** as they have been exploited in actual attacks on smart contracts.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used for the smart contracts is **Solidity**.",
+    "benchmarks_or_datasets": "The paper mentions several datasets used for evaluation, including:",
+    "dataset_tool_repo": "The paper does not explicitly mention a link to a dataset or tool repository.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  }
+]

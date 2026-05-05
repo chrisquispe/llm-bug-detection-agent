@@ -1,0 +1,202 @@
+[
+  {
+    "file_name": "Automatic_Bug_Fixing_via_Deliberate_Problem_Solving_with_Large_Language_Models.pdf",
+    "bug_type": "The bugs are from the QuixBugs dataset, which consists of synthetic bugs in Python code.",
+    "bug_origin": "Synthetic",
+    "programming_language": "The programming language used is Python.",
+    "benchmarks_or_datasets": "The benchmarks/datasets used are the QuixBugs dataset (which contains 40 defective Python files) and an additional example file `arithm_expr_eval.py` with a manually introduced bug.",
+    "dataset_tool_repo": "Yes, a dataset/tool repository is provided. The link is: [GitHub repository](https://github.com/princeton-nlp/tree-of-thought-llm).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "The_GitHub_Recent_Bugs_Dataset_for_Evaluating_LLM-Based_Debugging_Applications.pdf",
+    "bug_type": "",
+    "bug_origin": "Unknown",
+    "programming_language": "",
+    "benchmarks_or_datasets": "",
+    "dataset_tool_repo": "",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "RAGFix_Enhancing_LLM_Code_Repair_Using_RAG_and_Stack_Overflow_Posts.pdf",
+    "bug_type": "The bug type is not explicitly stated in the provided context, but it mentions that the evaluation uses the HumanEvalFix benchmark, which typically contains synthetic bugs. Therefore, the bugs can be considered synthetic.",
+    "bug_origin": "Synthetic",
+    "programming_language": "The programming language used is Python.",
+    "benchmarks_or_datasets": "The benchmark used is the HumanEvalFix benchmark, which includes 164 examples for evaluating code repair.",
+    "dataset_tool_repo": "Yes, a GitHub repository is mentioned for the approach, benchmarks, and evaluation results. The link is [22].",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Large_Language_Models_are_Few-shot_Testers_Exploring_LLM-based_General_Bug_Reproduction.pdf",
+    "bug_type": "The bug types discussed in the paper are real-world bugs, specifically those sourced from bug reports in open-source projects.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used in the study is Java.",
+    "benchmarks_or_datasets": "The benchmarks used include Defects4J, which is a manually curated dataset of real-world bugs from Java projects, and a new dataset referred to as GHRB (GitHub Recent Bugs) that was constructed by the authors.",
+    "dataset_tool_repo": "Yes, a replication package is mentioned to be available online, but the specific link is not provided in the context. You may need to refer to the paper directly for the exact URL.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Research_on_the_LLM-Driven_Vulnerability_Detection_System_Using_LProtector.pdf",
+    "bug_type": "",
+    "bug_origin": "Unknown",
+    "programming_language": "",
+    "benchmarks_or_datasets": "",
+    "dataset_tool_repo": "",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Method-Level_Bug_Severity_Prediction_using_Source_Code_Metrics_and_LLMs.pdf",
+    "bug_type": "The bugs are real-world bugs, specifically from open-source Java projects.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is Java.",
+    "benchmarks_or_datasets": "The datasets used are Defects4J and Bugs.jar.",
+    "dataset_tool_repo": "Yes, a replication package is provided in an online repository, but the specific link is not mentioned in the provided context.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "From_Bugs_to_Fixes_HDL_Bug_Identification_and_Patching_using_LLMs_and_RAG.pdf",
+    "bug_type": "The bug type targeted in the paper is **functional bugs** in Hardware Description Language (HDL). The bugs are derived from **real-world** case studies from OpenTitan.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is **Verilog**, which is a type of Hardware Description Language (HDL).",
+    "benchmarks_or_datasets": "The benchmarks used are case studies from **OpenTitan**, specifically focusing on three Intellectual Properties (IPs): an Always-on (AON) timer, Universal Asynchronous Receiver Transmitter (UART), and Entropy Distribution Network (EDN).",
+    "dataset_tool_repo": "The context does not provide a specific link to a dataset or tool repository. Therefore, it is unclear if one is provided.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "LLM-aided_explanations_of_EDA_synthesis_errors.pdf",
+    "bug_type": "",
+    "bug_origin": "Unknown",
+    "programming_language": "",
+    "benchmarks_or_datasets": "",
+    "dataset_tool_repo": "",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Sedar_Obtaining_High-Quality_Seeds_for_DBMS_Fuzzing_via_Cross-DBMS_SQL_Transfer.pdf",
+    "bug_type": "The bugs identified in the paper are real-world bugs. The paper mentions that Sedar uncovered a total of 70 previously unknown bugs across the evaluated DBMSs, with 19 of them assigned CVE IDs due to their severity.",
+    "bug_origin": "Real-world",
+    "programming_language": "The implementation of Sedar is done using C++ and Java. Specifically, the paper states that the implementation consists of 3,213 lines of C++ code and 1,072 lines of Java code.",
+    "benchmarks_or_datasets": "The benchmarks used in the evaluation include four DBMSs: MonetDB, Virtuoso, DuckDB, and ClickHouse. The paper also mentions the use of two state-of-the-art mutation-based DBMS fuzzers, Sqirrel and Griffin, for assessing the quality of the generated seeds.",
+    "dataset_tool_repo": "The provided context does not mention a specific link to a dataset or tool repository. Therefore, it appears that no direct link is provided in the text.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "An_Iteratively-refined_Dataset_for_High-Level_Synthesis_Functional_Verification_through_LLM-Aided_Bug_Injection.pdf",
+    "bug_type": "The bug types include logic bugs and non-ideal pragmas. They are synthetic as they are injected into the designs rather than being sourced from real-world instances.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming languages used are C and C++, as they are commonly employed in High-Level Synthesis (HLS) for hardware design.",
+    "benchmarks_or_datasets": "The benchmarks used include 13 open-source HLS benchmark suites, such as CHStone, FINN, GNNBuilder, H.264, HLS4ML, MachSuite, Open-Source-IPs, Polybench, Rosetta, Vitis HLS introductory examples, Vitis libraries, Tacle-Bench, and HIDA.",
+    "dataset_tool_repo": "Yes, a dataset/tool repository is provided. The link to the dataset is: [Chrysalis dataset](https://github.com/UIUC-ChenLab/Chrysalis-HLS).",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "On_Hardware_Security_Bug_Code_Fixes_by_Prompting_Large_Language_Models.pdf",
+    "bug_type": "The bug type is hardware security bugs. They are a mix of synthetic and real-world bugs, as the authors curated a corpus of domain-representative hardware security bugs, some of which were injected into designs (synthetic) and others sourced from existing frameworks (real-world).",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is Verilog.",
+    "benchmarks_or_datasets": "The benchmarks or datasets used include:",
+    "dataset_tool_repo": "Yes, the framework and artifacts produced in the study are made available as open-source. The specific link is not provided in the excerpt, but it is mentioned that further details are included in the Appendix.",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "ECG_Augmenting_Embedded_Operating_System_Fuzzing_via_LLM-Based_Corpus_Generation.pdf",
+    "bug_type": "The bugs identified in the study include logic errors, memory corruption, deadlocks, data races, and buffer overflows. They are categorized as real-world bugs, as they were found in actual Embedded OS environments during testing.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming languages used in the implementation of the ECG fuzzer include C, Golang, and Python.",
+    "benchmarks_or_datasets": "The benchmarks used for evaluation include three widely used Embedded OSs: RT-Linux, RaspiOS, and OpenWrt. Additionally, a commercial Embedded OS called ZHIXIN OS was also tested.",
+    "dataset_tool_repo": "Yes, the tool ECG is mentioned to be open-sourced and available for practice, but the specific link to the repository is not provided in the context.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "A_Comparative_Study_of_Bug_Triage_Representation_and_Classification_Approaches_from_Canonical_to_Large_Language_Models.pdf",
+    "bug_type": "The bugs are real-world, collected from the Bugzilla tool on Mozilla projects, comprising a historical dataset of bug reports and resolutions.",
+    "bug_origin": "Real-world",
+    "programming_language": "The paper does not specify a particular programming language used for the bugs, as it focuses on the bug triage process rather than a specific programming language.",
+    "benchmarks_or_datasets": "The dataset used is a historical bug report dataset constructed from Bugzilla, comprising ten years of reported bugs from 2014 to 2024.",
+    "dataset_tool_repo": "The provided context does not mention a specific link to a dataset or tool repository.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Assessment_of_Pre-Trained_Large_Language_Models_for_Hardware_Trojan_Detection_in_RTL_Designs.pdf",
+    "bug_type": "",
+    "bug_origin": "Unknown",
+    "programming_language": "",
+    "benchmarks_or_datasets": "",
+    "dataset_tool_repo": "",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Evaluating_the_Repair_Ability_of_LLM_Under_Different_Prompt_Settings.pdf",
+    "bug_type": "The bugs are from the Defects4J dataset, which contains real-world bugs from open-source Java projects.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming languages used are Java, Python, and C.",
+    "benchmarks_or_datasets": "The dataset used is Defects4J 2.0, which is widely used in the program repair community.",
+    "dataset_tool_repo": "The context does not provide a specific link to a dataset/tool repository.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "SPICED_Syntactical_Bug_Pattern_Identification_and_Correction_of_Trojans_in_A_MS_Circuits_Using_LLM-Enhanced_Detection.pdf",
+    "bug_type": "The bug types discussed in the paper are syntactical bugs and analog Trojans. Syntactical bugs refer to unintentional syntax errors in A/MS designs, while analog Trojans are malicious modifications. Both types are relevant to real-world scenarios in analog and mixed-signal integrated circuits.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming language used is SPICE, which is a simulation program with integrated circuit emphasis, commonly used for analog circuit design.",
+    "benchmarks_or_datasets": "The benchmarks used include circuits from the AMSNet dataset (specifically circuits 642, 738, and 755) and additional circuits such as a bandgap filter and low-dropout voltage regulator (LDO).",
+    "dataset_tool_repo": "The context does not provide a specific link to a dataset or tool repository.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "LLMs_Cannot_Reliably_Identify_and_Reason_About_Security_Vulnerabilities_Yet_A_Comprehensive_Evaluation_Framework_and_Benchmarks.pdf",
+    "bug_type": "The bug types evaluated in the study include eight critical vulnerabilities, specifically from the Common Weakness Enumeration (CWE). The scenarios include both synthetic (hand-crafted) and real-world vulnerabilities, with 48 hand-crafted scenarios, 30 real-world scenarios, and 150 augmented scenarios.",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming languages used in the evaluation are C and Python.",
+    "benchmarks_or_datasets": "The benchmarks include a dataset of 228 code scenarios that consist of hand-crafted, real-world, and augmented code examples. Additionally, the study references existing vulnerability detection benchmarks and datasets, but specifically focuses on the newly created dataset for their framework.",
+    "dataset_tool_repo": "Yes, the dataset and tool repository are publicly released as part of the SecLLMHolmes framework. However, the specific link is not provided in the text you shared.",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": "The study employs several prompting strategies, including:"
+  },
+  {
+    "file_name": "ANVIL_ Anomaly-based Vulnerability Identification without Labelled Training Data.pdf",
+    "bug_type": "The bug type discussed in the paper is vulnerabilities in code. The vulnerabilities are real-world, as they are evaluated using datasets containing real-world vulnerabilities (e.g., from the Magma dataset).",
+    "bug_origin": "Real-world",
+    "programming_language": "The programming languages used in the evaluation are C and C++.",
+    "benchmarks_or_datasets": "The paper mentions the following datasets:",
+    "dataset_tool_repo": "Yes, the dataset is publicly available in the repository mentioned in the paper. However, the specific link is not provided in the text you shared.",
+    "publicly_available": "Yes",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "SumLLaMA_Efficient_Contrastive_Representations_and_Fine-Tuned_Adapters_for_Bug_Report_Summarization.pdf",
+    "bug_type": "The bug reports used in the study are real-world, sourced from the Bugzilla platform, specifically from projects like Mozilla, Eclipse, Netbeans, and the GNU Compiler Collection (GCC).",
+    "bug_origin": "Real-world",
+    "programming_language": "The paper does not specify a particular programming language as the bug reports are from various projects. However, it mentions that the underlying model, CodeLLaMA, is pre-trained on open-source code, which typically includes multiple programming languages.",
+    "benchmarks_or_datasets": "The study utilizes a public bug report corpus curated by Fang et al., which includes over 270,000 bug reports from the Bugzilla platform.",
+    "dataset_tool_repo": "The context does not provide a specific link to a dataset or tool repository.",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  },
+  {
+    "file_name": "Poster_gptCombFuzz_Combinatorial_Oriented_LLM_Seed_Generation_for_effective_Fuzzing.pdf",
+    "bug_type": "",
+    "bug_origin": "Unknown",
+    "programming_language": "",
+    "benchmarks_or_datasets": "",
+    "dataset_tool_repo": "",
+    "publicly_available": "No",
+    "llm_prompt_strategy": ""
+  }
+]
